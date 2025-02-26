@@ -1,6 +1,6 @@
-var_1 = 5
-var_2 = 10
-result = var_1 + var_2
+gl_1 = 5
+gl_2 = 10
+result = gl_1 + gl_2
 print("Результат: " + str(result))
 print("Результат:", result)
 
