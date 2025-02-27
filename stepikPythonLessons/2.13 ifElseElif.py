@@ -15,7 +15,8 @@ else:
 
 pin = 1234
 attempts_const = 3
-user_pin = int(input("Enter your PIN "))
+input_pin = int(input("Enter your PIN "))
+
 
 def check(user_pin, attempts):
     if pin == user_pin:
@@ -30,4 +31,4 @@ def check(user_pin, attempts):
             print("PIN is incorrect. Your card has been blocked")
 
 
-check(user_pin, attempts_const)
+check(input_pin, attempts_const)
