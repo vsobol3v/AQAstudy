@@ -86,12 +86,3 @@ print(list(result))  # Пары образуются только для пер�
 txt = "welcome to the jungle"
 x = txt.split()  # строку в список
 print(x)
-
-print('ЗАДАНИЯ')
-
-numbers = list(map(int, '5 8 2 1 3 5 4 5 2 8 12'.split()))
-num_count = []
-for i in numbers:
-    num_count.append(numbers.count(i))
-zipped = list(zip(numbers, num_count))
-print(zipped)

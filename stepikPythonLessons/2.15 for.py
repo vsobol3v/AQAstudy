@@ -34,16 +34,3 @@ sum_elements = 0
 for element in numbers:
     sum_elements += element
 print(f"Сумма всех элементов в списке: {sum_elements}")
-
-numbers_1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1]
-numbers_2 = [2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
-sum_1 = 0
-sum_2 = 0
-for i in numbers_1:
-    sum_1 += i
-for j in numbers_2:
-    sum_2 += j
-if sum_1 > sum_2:
-    print("1")
-else:
-    print("2")
