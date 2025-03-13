@@ -24,17 +24,3 @@ for i in range(len(lines)):
 fw.close()
 print(first_line)
 print(content)
-
-films = 'Матрица Скала Схватка Бэтман'.split()
-fw = open('doc/fileX.txt', 'w')
-for f in films:
-    fw.write(f'{f}\n')
-fw.close()
-
-fr = open('doc/fileX.txt', 'r')
-lines = fr.readlines()
-for i in range(len(lines)):
-    print(lines[i].strip())
-    if i + 1 < len(lines):
-        print('*****')
-fw.close()
