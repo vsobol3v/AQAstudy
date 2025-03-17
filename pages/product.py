@@ -7,4 +7,4 @@ class ProductPage:
 
     def check_title_is(self, title):
         page_title = self.driver.find_element(By.CSS_SELECTOR, value='h2')
-        assert page_title.lines == title
+        assert page_title.lines_list == title
